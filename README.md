@@ -30,3 +30,6 @@ In `cpp_pkg`, go into a `.hpp` or `.cpp` file and then start typing out some `rc
 Right, you're not here to work on *this* repository but rather to see what can you take from here for your own project. Here goes:
 1. `.zed/settings.json`: Place this in your project root. Chances are you already have this file set up with your preferences, but feel free to take what's missing or different. Play around with language servers of your choice and settings like `"tab_size"` and `"format_on_save"`.
 2. `.clang-format` and `.clangd`: These are clang specific so are useful only if you choose to stay with clang.
+
+## References
+Zed docs: [C++](https://zed.dev/docs/languages/cpp), [Python](https://zed.dev/docs/languages/python)
