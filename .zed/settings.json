@@ -14,6 +14,15 @@
       "tab_size": 4,
       "semantic_tokens": "combined",
       "document_symbols": "on"
+    },
+    "Python": {
+      "language_servers": ["ty", "!pyright", "ruff"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "language_server": { "name": "ruff" }
+        }
+      ]
     }
   },
   "lsp": {
