@@ -7,9 +7,10 @@ This repository shows how to configure the [Zed](https://zed.dev/) code editor f
 
 Two very basic packages, `cpp_pkg` and `python_pkg`, have been used as examples, each with a `std_msgs/String` talker-listener. The goal here is not to serve as a guide on how to set up ROS2 packages or to teach any ROS2 functionality, but more to demonstrate how to configure Zed for developing ROS2 packages.
 
+**Note**: ROS2 distro should already be sourced in `~/.bashrc`. Launch Zed from a shell because GUI-launched Zed does not inherit environment modifications made by `~/.bashrc`.
+
 ## How to use this repository
 
-ROS2 distro should already be sourced in `~/.bashrc`.
 
 Building the workspace is necessary to generate `build/compile_commands.json` which is required for IntelliSense. Clone this repository and build the workspace with:
 ```bash
