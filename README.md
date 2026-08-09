@@ -9,6 +9,8 @@ Two very basic packages, `cpp_pkg` and `python_pkg`, have been used as examples,
 
 ## How to use this repository
 
+ROS2 distro should already be sourced in `~/.bashrc`.
+
 Building the workspace is necessary to generate `build/compile_commands.json` which is required for IntelliSense. Clone this repository and build the workspace with:
 ```bash
 colcon build --symlink-install --continue-on-error --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON

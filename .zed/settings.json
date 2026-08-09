@@ -26,14 +26,6 @@
     }
   },
   "lsp": {
-    "ty": {
-      "binary": {
-        "env": {
-          "PYTHONPATH": "/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages",
-          "LD_LIBRARY_PATH": "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib"
-        }
-      }
-    },
     "clangd": {
       "binary": {
         "path": "/usr/bin/clangd",
