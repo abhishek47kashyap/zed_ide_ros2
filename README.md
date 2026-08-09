@@ -3,13 +3,13 @@
 
 ## Develop your ROS2 packages in Zed
 
-This repository shows how to configure the [Zed](https://zed.dev/) code editor with [ROS2](https://www.ros.org/) that enables intellisense features to ease development. This has been **tested to work on Ubuntu 22.04 with ROS2 Humble and Zed 1.14.2**.
+This repository shows how to configure the [Zed](https://zed.dev/) code editor for [ROS2](https://www.ros.org/) development, enabling IntelliSense features that make development easier. This has been **tested to work on Ubuntu 22.04 with ROS2 Humble and Zed 1.14.2**.
 
 Two very basic packages, `cpp_pkg` and `python_pkg`, have been used as examples, each with a `std_msgs/String` talker-listener. The goal here is not to serve as a guide on how to set up ROS2 packages or to teach any ROS2 functionality, but more to demonstrate how to configure Zed for developing ROS2 packages.
 
 ## How to use this repository
 
-Building the workspace is necessary to generate `build/compile_commands.json` which is required for intellisense. Clone this repository and build the workspace with:
+Building the workspace is necessary to generate `build/compile_commands.json` which is required for IntelliSense. Clone this repository and build the workspace with:
 ```bash
 colcon build --symlink-install --continue-on-error --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 ```
@@ -23,8 +23,8 @@ Unimportant, but if you wanted to run the nodes, source the workspace, and then 
 
 Again, this is not a ROS2 tutorial, so the nodes running successfully doesn't mean a whole lot here.
 
-### Confirming intellisense and autocomplete
-In `cpp_pkg`, go into a `.hpp` or `.cpp` file and then start typing out some `rclcpp` keyword and you should see auto-complete suggestions. Likewise, in `python_pkg`, go into a `.py` file and then start typing out any `rclpy` keyword and autocomplete-suggestions should come up.
+### Confirming IntelliSense and autocomplete
+In `cpp_pkg`, go into a `.hpp` or `.cpp` file and then start typing out some `rclcpp` keyword and you should see autocomplete suggestions. Likewise, in `python_pkg`, go into a `.py` file and then start typing out any `rclpy` keyword and autocomplete suggestions should come up.
 
 ### What files to lift into your own project
 Right, you're not here to work on *this* repository but rather to see what can you take from here for your own project. Here goes:
