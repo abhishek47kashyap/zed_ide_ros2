@@ -7,7 +7,7 @@ This repository shows how to configure the [Zed](https://zed.dev/) code editor f
 
 Two very basic packages, `cpp_pkg` and `python_pkg`, have been used as examples, each with a `std_msgs/String` talker-listener. The goal here is not to serve as a guide on how to set up ROS2 packages or to teach any ROS2 functionality, but more to demonstrate how to configure Zed for developing ROS2 packages.
 
-**Note**: ROS2 distro should already be sourced in `~/.bashrc`. Launch Zed from a shell because GUI-launched Zed does not inherit environment modifications made by `~/.bashrc`.
+**Note**: ROS2 distro should already be sourced in `~/.bashrc`. Launch Zed from a shell because GUI-launched Zed does not inherit environment modifications made by `~/.bashrc`. For more on this, refer to [Zed: Environment Variables](https://zed.dev/docs/environment).
 
 ## How to use this repository
 
@@ -35,4 +35,9 @@ Right, you're not here to work on *this* repository but rather to see what can y
 2. `.clang-format` and `.clangd`: These are clang specific so are useful only if you choose to stay with clang.
 
 ## References
-Zed docs: [C++](https://zed.dev/docs/languages/cpp), [Python](https://zed.dev/docs/languages/python)
+Zed docs:
+- [C++](https://zed.dev/docs/languages/cpp)
+- [Python](https://zed.dev/docs/languages/python)
+- [Semantic Tokens](https://zed.dev/docs/semantic-tokens)
+
+To dive deeper into the rabbit-hole of setting up Zed for your project and per your preferences, check out [Zed: All Settings](https://zed.dev/docs/reference/all-settings) and [zed-101-setup](https://github.com/jellydn/zed-101-setup).
