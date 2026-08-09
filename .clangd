@@ -1,6 +1,2 @@
 CompileFlags:
-  Add:
-    - -isystem
-    - /usr/include/c++/10
-    - -isystem
-    - /usr/include/x86_64-linux-gnu/c++/10
+  CompilationDatabase: build
