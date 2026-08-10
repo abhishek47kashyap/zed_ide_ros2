@@ -29,6 +29,8 @@ Again, this is not a ROS2 tutorial, so the nodes running successfully doesn't me
 ### Confirming IntelliSense and autocomplete
 In `cpp_pkg`, go into a `.hpp` or `.cpp` file and then start typing out some `rclcpp` keyword and you should see autocomplete suggestions. Likewise, in `python_pkg`, go into a `.py` file and then start typing out any `rclpy` keyword and autocomplete suggestions should come up.
 
+If autocomplete suggestions do not come up as you type or you can't `Ctrl+click` your way around, [restarting language servers](https://zed.dev/docs/troubleshooting#language-server-issues) may help (`Ctrl+Shift+P` followed by `editor: restart language server`).
+
 ### What files to lift into your own project
 Right, you're not here to work on *this* repository but rather to see what can you take from here for your own project. Here goes:
 1. `.zed/settings.json`: Place this in your project root. Chances are you already have this file set up with your preferences, but feel free to take what's missing or different. Play around with language servers of your choice and settings like `"tab_size"` and `"format_on_save"`.
