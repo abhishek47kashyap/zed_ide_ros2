@@ -20,11 +20,11 @@ colcon build --symlink-install --continue-on-error --cmake-args -DCMAKE_EXPORT_C
 There are no dependencies beyond what comes with the standard ROS2 installation, so if ROS2 has been installed correctly it will be surprising if the build fails.
 
 ### Running the nodes
-Unimportant, but if you wanted to run the nodes, source the workspace, and then do:
+Unimportant, but to run the nodes, source the workspace (`source install/setup.bash`), and then do:
 - C++: `ros2 run cpp_pkg main` or `ros2 launch cpp_pkg main.launch.py`
 - Python: `ros2 run python_pkg main` or `ros2 launch python_pkg main.launch.py`
 
-Again, this is not a ROS2 tutorial, so the nodes running successfully doesn't mean a whole lot here.
+This is not a ROS2 tutorial so the nodes running successfully doesn't mean much here.
 
 ### Confirming IntelliSense and autocomplete
 In `cpp_pkg`, go into a `.hpp` or `.cpp` file and then start typing out some `rclcpp` keyword and you should see autocomplete suggestions. Likewise, in `python_pkg`, go into a `.py` file and then start typing out any `rclpy` keyword and autocomplete suggestions should come up.
