@@ -21,8 +21,8 @@ There are no dependencies beyond what comes with the standard ROS2 installation,
 
 ### Running the nodes
 Unimportant, but if you wanted to run the nodes, source the workspace, and then do:
-- C++: `ros2 run cpp_pkg main`
-- Python: `ros2 run python_pkg main`
+- C++: `ros2 run cpp_pkg main` or `ros2 launch cpp_pkg main.launch.py`
+- Python: `ros2 run python_pkg main` or `ros2 launch python_pkg main.launch.py`
 
 Again, this is not a ROS2 tutorial, so the nodes running successfully doesn't mean a whole lot here.
 
