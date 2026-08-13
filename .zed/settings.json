@@ -16,8 +16,11 @@
       "document_symbols": "on"
     },
     "Python": {
-      "language_servers": ["ty", "!pyright", "ruff"],
+      "language_servers": ["ty", "!basedpyright", "ruff"],
       "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.organizeImports.ruff": true
+      },
       "formatter": [
         {
           "language_server": { "name": "ruff" }
