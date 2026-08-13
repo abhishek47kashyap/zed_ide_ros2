@@ -3,7 +3,7 @@
 <package format="3">
   <name>python_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Example Python package</description>
   <maintainer email="abhishek47kashyap@gmail.com">abhishek</maintainer>
   <license>TODO: License declaration</license>
 
